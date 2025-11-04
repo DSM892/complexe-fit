@@ -119,6 +119,7 @@ main img {
 main h1 {
     color: whitesmoke;
     font-size: 50px;
+    margin: 10px;
 }
 
 main h2 {
