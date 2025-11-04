@@ -86,10 +86,6 @@ main {
     align-items: center;
 }
 
-#salles_main {
-    z-index: 1;
-}
-
 main ul {
     list-style: none;
     padding: 0;
@@ -129,6 +125,49 @@ main h2 {
 
 
 
+#salles_main {
+    z-index: 1;
+}
+
+#abonnements_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#abonnements_main h1 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#abonnements_main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+}
+
+#abonnements_main li {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 350px;
+}
+
+#abonnements_main h2 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#abonnements_main p {
+    margin: 10px 20px;
+}
+
+#abonnements_main h3 {
+    font-size: 20px;
+}
+
 #entrainement_chez_soi_main li {
     height: auto;
     width: auto;
@@ -160,12 +199,12 @@ main h2 {
     width: 450px;
 }
 
-#inscription {
+#inscription_main {
 display: flex;
 justify-content: center;
 }
 
-#inscription form, fieldset {
+#inscription_main form, fieldset {
     background-color: rgb(255, 241, 224);
     border: 3px solid black;
     display: flex;
