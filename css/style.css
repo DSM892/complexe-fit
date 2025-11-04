@@ -14,6 +14,8 @@ html {
     background-color: rgb(5, 171, 106);
 }
 
+
+
 header {
     position: fixed;
     top: 10px;
@@ -74,6 +76,8 @@ header img:hover {
     color: rgb(0, 120, 75);
 }
 
+
+
 main {
     margin-top: 120px;
     text-align: center;
@@ -113,6 +117,18 @@ main li {
     box-shadow: 2px 2px 5px rgb(89, 89, 89);
 }
 
+main img {
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+main h2 {
+    margin: 10px 0;
+}
+
+
+
 #entrainement_chez_soi_main li {
     height: auto;
     width: auto;
@@ -127,10 +143,6 @@ main li {
     padding: 10px;
     height: 500px;
     width: 400px;
-}
-
-main h2 {
-    margin: 10px 0;
 }
 
 #boutique_main h3 {
@@ -148,8 +160,20 @@ main h2 {
     width: 450px;
 }
 
-main img {
-    height: 300px;
-    width: auto;
-    border-radius: 8px;
+#inscription {
+display: flex;
+justify-content: center;
+}
+
+#inscription form, fieldset {
+    background-color: rgb(255, 241, 224);
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 3px;
+}
+
+#inscription label {
+    color: red;
 }
