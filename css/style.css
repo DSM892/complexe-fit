@@ -176,12 +176,15 @@ main h2 {
 }
 
 #entrainement_chez_soi_main li {
-    height: auto;
+    height: 500px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 #entrainement_chez_soi_main h2 {
-    margin: 20px 0 10px 0;
+    margin-top: 20px;
     font-size: 25px;
 }
 
@@ -195,9 +198,36 @@ main h2 {
     width: 300px;
 }
 
+#conseils_et_programmes_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #conseils_et_programmes_main li {
-    height: auto;
-    width: 525px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#conseils_et_programmes_main img {
+    height: 300px;
+    width: 400px;
+}
+
+#conseils_et_programmes_main h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 300px;
+}
+
+#conseils_et_programmes_main p {
+    margin: 0 0 10px 0;
+    width: 300px;
 }
 
 #boutique_main li {
@@ -213,12 +243,6 @@ main h2 {
     padding: 5px 20px;
     border-radius: 5px;
     font-size: 30px;
-}
-
-#conseils_et_programmes_main p {
-    font-family: "bebas_pro", sans-serif;
-    margin: 0 0 10px 0;
-    width: 450px;
 }
 
 #inscription_main {
