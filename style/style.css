@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "bebas";
+    src: url("../../font/Bebas-Regular.otf");
+}
+
+@font-face {
+    font-family: "bebas_pro";
+    src: url("../../font/Fontspring-DEMO-bebasneuepro-regular.otf");
+}
+
+html {
+    font-family: "bebas", sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(5, 171, 106);
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    width: 99%;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid rgb(5, 171, 106);
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px grey;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(5, 171, 106);
+}
+
+header a:hover {
+    color: rgb(0, 120, 75);
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+header img {
+    padding: 0;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 100px;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+#inscription_header {
+    background-color: rgb(5, 171, 106);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#header_page_actuelle {
+    font-size: 30px;
+    color: rgb(0, 120, 75);
+}
+
+main {
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#salles_main {
+    z-index: 1;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+main li {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(89, 89, 89);
+}
+
+#entrainement_chez_soi_main li {
+    height: auto;
+    width: auto;
+}
+
+#conseils_et_programmes_main li {
+    height: auto;
+    width: 525px;
+}
+
+#boutique_main li {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+main h2 {
+    margin: 10px 0;
+}
+
+#boutique_main h3 {
+    background-color: rgb(5, 171, 106);
+    color: white;
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#conseils_et_programmes_main p {
+    font-family: "bebas_pro", sans-serif;
+    margin: 0 0 10px 0;
+    width: 450px;
+}
+
+main img {
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
