@@ -119,6 +119,11 @@ main img {
     border-radius: 8px;
 }
 
+main h1 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
 main h2 {
     margin: 10px 0;
 }
@@ -134,11 +139,6 @@ main h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#abonnements_main h1 {
-    color: whitesmoke;
-    font-size: 50px;
 }
 
 #abonnements_main ul {
@@ -168,9 +168,31 @@ main h2 {
     font-size: 20px;
 }
 
+#entrainement_chez_soi_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #entrainement_chez_soi_main li {
     height: auto;
-    width: auto;
+    width: 400px;
+}
+
+#entrainement_chez_soi_main h2 {
+    margin: 20px 0 10px 0;
+    font-size: 25px;
+}
+
+#entrainement_chez_soi_main img {
+    height: 300px;
+    width: 400px;
+}
+
+#entrainement_chez_soi_main p {
+    margin: 0 0 10px 0;
+    width: 300px;
 }
 
 #conseils_et_programmes_main li {
