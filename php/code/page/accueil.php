@@ -63,24 +63,24 @@
                 </li>
                 <li>
                     <img src="../../images/sport/acces.jpg" alt="Accès 24/7">
-                    <h3>Acces 24/7</h3>
+                    <h3>Accès 24/7</h3>
                     <p>Entraînez-vous à l'heure qui vous convient le mieux</p>
                 </li>
                 <li>
                     <img src="../../images/sport/vieilles_femmes_rire.jpg" alt="Communauté">
-                    <h3>Communaute active</h3>
+                    <h3>Communauté active</h3>
                     <p>Rejoignez des milliers de membres passionnés par le fitness</p>
                 </li>
             </ul>
         </div>
 
         <div id="messagerie">
-            <h2>Pret a commencer ?</h2>
+            <h2>Prêt à commencer ?</h2>
             <?php
             if (!isset($_SESSION['firstname'])) {
-                echo('<a href="abonnements.php">Decouvrir nos abonnements</a>');
+                echo('<a href="abonnements.php">Découvrir nos abonnements</a>');
             } else {
-                echo('<a href="messagerie.php">Acceder à la messagerie</a>');
+                echo('<a href="messagerie.php">Accéder à la messagerie</a>');
             }
             ?>
         </div>

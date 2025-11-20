@@ -1,11 +1,6 @@
 @font-face {
     font-family: "bebas";
-    src: url("../font/Bebas-Regular.otf");
-}
-
-@font-face {
-    font-family: "bebas_pro";
-    src: url("../font/Fontspring-DEMO-bebasneuepro-regular.otf");
+    src: url("../font/Coolvetica\ Hv\ Comp.otf");
 }
 
 html {
@@ -22,7 +17,7 @@ header {
     z-index: 1000;
     width: 99%;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     background-color: whitesmoke;
     box-shadow: 2px 2px 5px grey;
 }
@@ -136,7 +131,7 @@ main img {
 
 main h1 {
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 65px; /* +15px depuis 50px */
     margin: 10px;
 }
 
@@ -160,7 +155,7 @@ main h2 {
 
 #bienvenue p {
     text-align: center;
-    font-size: 60px;
+    font-size: 75px; /* +15px depuis 60px */
     margin: 20px 0;
     color: white;
 }
@@ -172,8 +167,8 @@ main h2 {
 }
 
 #image img {
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
     margin: 30px 0;
@@ -192,7 +187,7 @@ main h2 {
 
 #liste h2 {
     color: white;
-    font-size: 45px;
+    font-size: 60px; /* +15px depuis 45px */
     margin: 40px 0;
 }
 
@@ -205,28 +200,34 @@ main h2 {
 
 #liste h3 {
     color: rgb(5, 171, 106);
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     margin: 15px 0;
 }
 
 #liste p {
     color: rgb(50, 50, 50);
-    font-size: 16px;
+    font-size: 31px; /* +15px depuis 16px */
 }
 
-#messagerie {
+#messagerie_main {
     margin: 60px 0;
     text-align: center;
 }
 
-#messagerie h2 {
+#messagerie_main h2 {
     color: white;
-    font-size: 45px;
+    font-size: 60px; /* +15px depuis 45px */
     margin: 40px 0;
 }
 
-#messagerie a {
-    font-size: 30px;
+#messagerie_main p {
+    color: white;
+    font-size: 35px; /* +15px depuis 20px */
+    margin: 20px 0;
+}
+
+#messagerie_main a {
+    font-size: 45px; /* +15px depuis 30px */
     color: white;
     background-color:rgb(0, 120, 75);
     padding: 15px 40px;
@@ -234,6 +235,11 @@ main h2 {
     text-decoration: none;
     display: inline-block;
     margin: 20px 0;
+}
+
+#messagerie_main label {
+    color: white;
+    font-size: 35px; /* +15px depuis 20px */
 }
 
 #salles_main {
@@ -253,7 +259,7 @@ main h2 {
 
 #salles_specifique_main h2, #salles_specifique_main p {
     color: white;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     margin: 10px 0;
 }
 
@@ -294,7 +300,7 @@ main h2 {
 #details_salles_specifique2 li {
     box-shadow: none;
     background-color: transparent;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
 }
 
 #abonnements_main {
@@ -320,16 +326,17 @@ main h2 {
 
 #abonnements_main h2 {
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
 }
 
 #abonnements_main p {
     color: black;
     margin: 10px 20px;
+    font-size: 31px; /* +15px depuis 16px */
 }
 
 #abonnements_main h3 {
-    font-size: 20px;
+    font-size: 35px; /* +15px depuis 20px */
 }
 
 #entrainement_chez_soi_main {
@@ -349,7 +356,7 @@ main h2 {
 
 #entrainement_chez_soi_main h2 {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
 }
 
 #entrainement_chez_soi_main img {
@@ -361,6 +368,7 @@ main h2 {
     color: black;
     margin: 0 0 10px 0;
     width: 300px;
+    font-size: 25px; /* +15px depuis 0px implicite */
 }
 
 #conseils_et_programmes_main {
@@ -386,7 +394,7 @@ main h2 {
 
 #conseils_et_programmes_main h2 {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     width: 300px;
 }
 
@@ -394,6 +402,7 @@ main h2 {
     color: black;
     margin: 0 0 10px 0;
     width: 300px;
+    font-size: 25px; /* +15px depuis 0px implicite */
 }
 
 #boutique_main li {
@@ -402,13 +411,17 @@ main h2 {
     width: 400px;
 }
 
+#boutique_main h2 {
+    font-size: 35px;
+}
+
 #boutique_main h3 {
     background-color: rgb(5, 171, 106);
     color: white;
     margin: 0;
     padding: 5px 20px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 30px; /* +15px depuis 30px */
 }
 
 #produit_main {
@@ -428,7 +441,7 @@ main h2 {
     background-color: white;
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     margin: 0;
 }
 
@@ -454,7 +467,7 @@ main h2 {
 
 #inscription_main label {
     color: rgb(0, 120, 75);
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
 }
 
 #inscription_main input {
@@ -466,7 +479,7 @@ main h2 {
     background-color: rgb(5, 171, 106);
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     margin: 0;
 }
 
@@ -492,7 +505,7 @@ main h2 {
 
 #connexion_main label {
     color: rgb(0, 120, 75);
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
 }
 
 #connexion_main input {
@@ -504,7 +517,7 @@ main h2 {
     background-color: rgb(5, 171, 106);
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 25px;
+    font-size: 40px; /* +15px depuis 25px */
     margin: 0;
 }
 
@@ -524,7 +537,7 @@ main h2 {
 #admin_main th, td {
     border: 1px solid black;
     padding: 10px;
-    font-size: 20px;
+    font-size: 35px; /* +15px depuis 20px */
     background-color: whitesmoke;
 }
 

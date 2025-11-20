@@ -38,28 +38,16 @@
             <li>
                 <h2>Mensuel</h2>
                 <p>Accès illimité à toutes les salles pendant un mois. Idéal pour ceux qui veulent tester nos installations.</p>
-                <p>
-                    Aenean semper iaculis mollis. Donec aliquam ligula leo, non convallis velit faucibus a. Aenean massa felis, 
-                    aliquam quis lorem sed, euismod posuere quam. Pellentesque venenatis placerat luctus. Vivamus sodales lacus.
-                </p>
                 <h3>30€ par mois</h3>
             </li>
             <li>
                 <h2>Trimestriel</h2>
                 <p>Accès illimité à toutes les salles pendant trois mois. Parfait pour ceux qui souhaitent s'engager sur le long terme.</p>
-                <p>
-                    Curabitur fringilla, nunc eu lobortis malesuada, augue nunc auctor ligula, quis pulvinar eros lectus quis nisi. 
-                    Etiam placerat mi vitae dolor laoreet fringilla. Proin id leo nulla. Nam pulvinar iaculis.
-                </p>
                 <h3>80€ pour trois mois</h3>
             </li>
             <li>
                 <h2>Annuel</h2>
                 <p>Accès illimité à toutes les salles pendant un an. Le meilleur choix pour les passionnés de fitness.</p>
-                <p>
-                    Morbi nulla tellus, malesuada in felis in, tristique tempor justo. Aenean feugiat gravida diam quis lacinia. 
-                    Nam eget mi nunc. Aenean eros purus, lacinia id accumsan eget, ultrices dapibus ligula.
-                </p>
                 <h3>300€ par an</h3>
             </li>
         </ul>
