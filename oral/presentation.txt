@@ -1,0 +1,29 @@
+sommaire
+nummeroter les slide
+se presenter au debut
+pas de code dans ses diapos sauf certains projets : le jury lit au lieu d'ecouter
+eviter le plus possible le texte (phrases) dans le diapo : que des mots clé
+chiffres à présenter : on met juste les chiffres clé
+ne pas apprendre un texte
+illustrer le plus possible par des images, screens
+avant derniere slide : demonstration
+conclusion : derniere slide
+
+s'entrainer au moins une ou deux fois à l'oral
+croiser les temps de paroles dans les presentation en groupe
+
+15min
+
+10min de presentation
+presenter les choix et les justifier
+langage et les presenter un peu
+rappeler le contexte
+ne pas etre etudiant à l'epsi, etre dans le role
+
+5min de site
+montrer le site, naviguer dedans
+comment ça fonctionne
+docker
+bdd
+
+conclusion apres tout ça, toute derniere chose (je peux parler de mon ressenti)

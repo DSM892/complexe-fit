@@ -1,0 +1,29 @@
+page d'accueil (logo, nom de marque, présentation globale de l'entreprise, quelques produits, quelques avis,
+			    quelques photos, les abonnements, l'équipe dirigeante de l'entreprise)
+
+	-> Emplacements des clubs (adresses un peu random, google maps ou équivalent, plan d'accès : itinéraire comme
+	   nigloland, contact des personnes responsables)
+	-> Abonnements (nom d'abonnements, prix, avantages, tableau avec avantages par abonnement, options,
+	   cours collectifs, pass journalier, coach sportif)
+	-> Entraînement à la maison (vidéos, types de sports)
+	-> Articles, conseils, programmes
+	-> Vente d'accessoires (élastique, haltère, machine, complément alimentaire..., articles de sources
+	   externes promouvant tout ça : un aperçu et si on clique ça nous envoie sur le site)
+
+
+
+commentaires :
+	partenariats avec certaines entreprises ou associations
+	Lorem Ipsum (texte à metttre si manque d'inspi)
+	vert blanc noir jaune orange
+
+
+
+
+
+
+page des différentes salles
+page des produits de la boutique
+consultation d’articles réservés aux adhérents
+informations de contact de personnes spécialisés pour les besoins des adhérents
+service de messagerie en direct

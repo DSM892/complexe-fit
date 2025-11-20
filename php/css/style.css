@@ -1,0 +1,572 @@
+@font-face {
+    font-family: "bebas";
+    src: url("../font/Bebas-Regular.otf");
+}
+
+@font-face {
+    font-family: "bebas_pro";
+    src: url("../font/Fontspring-DEMO-bebasneuepro-regular.otf");
+}
+
+html {
+    font-family: "bebas", sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(5, 171, 106);
+}
+
+
+
+header {
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+    width: 99%;
+    text-align: center;
+    font-size: 25px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px grey;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(5, 171, 106);
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    transition: 0.3s ease-in-out;
+}
+
+header a:has(img) {
+    border-bottom: none;
+}
+
+header a:visited {
+    color: rgb(5, 171, 106);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(0, 120, 75);
+    border-bottom: 3px solid rgb(0, 120, 75);
+    border-radius: 0;
+}
+
+header a:has(img):hover {
+    border-bottom: none;
+}
+
+header img {
+    padding: 0;
+    vertical-align: middle;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+header #logo {
+    height: 100px;
+}
+
+header #user_img {
+    height: 60px;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    border-bottom: none;
+}
+
+#header_page_actuelle {
+    text-decoration: none;
+    border-bottom: 3px solid rgb(0, 120, 75);
+    color: rgb(0, 120, 75);
+}
+
+
+
+main {
+    margin-top: 120px;
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+main li {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(89, 89, 89);
+}
+
+main img {
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+main h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 10px;
+}
+
+main h2 {
+    margin: 10px 0;
+}
+
+
+
+#accueil_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#bienvenue {
+    margin-bottom: 40px;
+}
+
+#bienvenue p {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0;
+    color: white;
+}
+
+#image {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px 0;
+}
+
+#image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+#liste {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 0;
+    width: 100%;
+}
+
+#liste h2 {
+    color: white;
+    font-size: 45px;
+    margin: 40px 0;
+}
+
+#liste li {
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#liste h3 {
+    color: rgb(5, 171, 106);
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+#liste p {
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+}
+
+#messagerie {
+    margin: 60px 0;
+    text-align: center;
+}
+
+#messagerie h2 {
+    color: white;
+    font-size: 45px;
+    margin: 40px 0;
+}
+
+#messagerie a {
+    font-size: 30px;
+    color: white;
+    background-color:rgb(0, 120, 75);
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#salles_main {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#salles_specifique_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#salles_specifique_main h2, #salles_specifique_main p {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#details_salles_specifique1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px grey;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+
+#details_salles_specifique1 img {
+    height: auto;
+    width: 750px;
+    border-radius: 0;
+}
+
+#details_salles_specifique2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#details_salles_specifique2 ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+#details_salles_specifique2 li {
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+#abonnements_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#abonnements_main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+}
+
+#abonnements_main li {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 350px;
+}
+
+#abonnements_main h2 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#abonnements_main p {
+    margin: 10px 20px;
+}
+
+#abonnements_main h3 {
+    font-size: 20px;
+}
+
+#entrainement_chez_soi_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#entrainement_chez_soi_main li {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#entrainement_chez_soi_main h2 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#entrainement_chez_soi_main img {
+    height: 300px;
+    width: 400px;
+}
+
+#entrainement_chez_soi_main p {
+    margin: 0 0 10px 0;
+    width: 300px;
+}
+
+#conseils_et_programmes_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#conseils_et_programmes_main li {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#conseils_et_programmes_main img {
+    height: 300px;
+    width: 400px;
+}
+
+#conseils_et_programmes_main h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 300px;
+}
+
+#conseils_et_programmes_main p {
+    margin: 0 0 10px 0;
+    width: 300px;
+}
+
+#boutique_main li {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+#boutique_main h3 {
+    background-color: rgb(5, 171, 106);
+    color: white;
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#produit_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#produit_description {
+    margin-right: 50px;
+    width: 800px;
+}
+
+#produit_description a {
+    color: rgb(0, 120, 75);
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 25px;
+    margin: 0;
+}
+
+#inscription_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscription_main form, fieldset {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    gap: 3px;
+    width: 200px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#inscription_main label {
+    color: rgb(0, 120, 75);
+    font-size: 25px;
+}
+
+#inscription_main input {
+    margin: 0 0 10px 0;
+}
+
+#inscription_main a {
+    color: white;
+    background-color: rgb(5, 171, 106);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 25px;
+    margin: 0;
+}
+
+#connexion_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#connexion_main form, fieldset {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    gap: 3px;
+    width: 200px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#connexion_main label {
+    color: rgb(0, 120, 75);
+    font-size: 25px;
+}
+
+#connexion_main input {
+    margin: 0 0 10px 0;
+}
+
+#connexion_main a {
+    color: white;
+    background-color: rgb(5, 171, 106);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 25px;
+    margin: 0;
+}
+
+#admin_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#admin_main table {
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px grey;
+
+}
+
+#admin_main th, td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+#admin_main #actions {
+    background-color: rgb(228, 228, 228);
+}
+
+#admin_main a {
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#admin_main a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* image hero spécifique : écrase la règle globale main img si nécessaire */
+/* liste de features : layout et taille des mini-images */
+#features_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 0;
+    list-style: none;
+    padding: 0;
+}
+
+#features_list li {
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#features_list li img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* si vous aviez une règle globale main img qui casse tout, vous pouvez la rendre moins générale :
+   remplacer 'main img { ... }' par un sélecteur plus précis comme 'main ul li img' dans le CSS principal. */
