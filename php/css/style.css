@@ -324,6 +324,7 @@ main h2 {
 }
 
 #abonnements_main p {
+    color: black;
     margin: 10px 20px;
 }
 
@@ -357,6 +358,7 @@ main h2 {
 }
 
 #entrainement_chez_soi_main p {
+    color: black;
     margin: 0 0 10px 0;
     width: 300px;
 }
@@ -389,6 +391,7 @@ main h2 {
 }
 
 #conseils_et_programmes_main p {
+    color: black;
     margin: 0 0 10px 0;
     width: 300px;
 }
