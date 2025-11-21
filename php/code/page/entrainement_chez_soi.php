@@ -37,7 +37,7 @@
         <ul>
             <a href="https://www.youtube.com/watch?v=Ev3xdQ6Uq68&feature=youtu.be"><li>
                 <img src="../../images/entrainement_chez_soi/etirements.jpg" alt="Image étirements">
-                <h2>Routine d'etirements</h2>
+                <h2>Routine d'étirements</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
                     Ex sapien vitae pellentesque sem placerat in id.
@@ -64,7 +64,7 @@
 
             <a href="https://conseilsport.decathlon.fr/8-exercices-avec-des-halteres-ma-routine-fitness"><li>
                 <img src="../../images/entrainement_chez_soi/halteres.jpg" alt="Image haltères de musculation">
-                <h2>Halteres</h2>
+                <h2>Haltères</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
                     Ex sapien vitae pellentesque sem placerat in id.
@@ -73,7 +73,7 @@
 
             <a href="https://conseilsport.decathlon.fr/8-exercices-avec-une-bande-elastique-ma-routine-fitness"><li>
                 <img src="../../images/entrainement_chez_soi/elastique.jpg" alt="Image élastiques de sport">
-                <h2>Elastiques</h2>
+                <h2>Élastiques</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
                     Ex sapien vitae pellentesque sem placerat in id.
@@ -91,7 +91,7 @@
 
             <a href="https://www.youtube.com/watch?v=WB19BOmN8tM&feature=youtu.be"><li>
                 <img src="../../images/entrainement_chez_soi/teletravail.jpg" alt="Image télétravail et sport">
-                <h2>Teletravail</h2>
+                <h2>Télétravail</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
                     Ex sapien vitae pellentesque sem placerat in id.
