@@ -15,7 +15,7 @@
                 <li><a href="../page/accueil.php"><img src="../../logos/logo_complet_transparent.png" alt="Logo" id="logo"></a></li>
                 <li><a href="../page/salles.php">Salles</a></li>
                 <li><a href="../page/abonnements.php">Abonnements</a></li>
-                <li><a href="../page/entrainement_chez_soi.php">Entrainement chez soi</a></li>
+                <li><a href="../page/entrainement_chez_soi.php">Entraînement chez soi</a></li>
                 <li><a href="../page/conseils_et_programmes.php">Conseils et programmes</a></li>
                 <li><a href="../page/boutique.php">Boutique</a></li>
                 <li><a href="../page/inscription.php"><img src="../../logos/user.png" alt="S'inscrire" id="user_img"></a></li>
@@ -27,16 +27,16 @@
         <h1>Inscription</h1>
         <form action="add_temp_users.php" method="POST">
             <label for="lastname">Nom :</label>
-            <input type="text" id="lastname" name="lastname" required>
+            <input type="text" id="lastname" name="lastname" placeholder="Dupont" required>
 
             <label for="firstname">Prénom :</label>
-            <input type="text" id="firstname" name="firstname" required>
+            <input type="text" id="firstname" name="firstname" placeholder="Laure" required>
 
             <label for="email">Email :</label>
-            <input type="text" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="lauredupont@example.com" required>
 
             <label for="mdp">Mot de passe :</label>
-            <input type="password" id="mdp" name="mdp" required>
+            <input type="password" id="mdp" name="mdp" placeholder="Mot de passe sécurisé" required>
 
             <input type="submit" value="S'inscrire">
             <a href="connexion.php">Connexion</a>

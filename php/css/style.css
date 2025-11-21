@@ -17,7 +17,7 @@ header {
     z-index: 1000;
     width: 99%;
     text-align: center;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     background-color: whitesmoke;
     box-shadow: 2px 2px 5px grey;
 }
@@ -112,6 +112,8 @@ main a {
     color: black;
     background-color: whitesmoke;
     border-radius: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
 }
 
 main li {
@@ -131,12 +133,14 @@ main img {
 
 main h1 {
     color: whitesmoke;
-    font-size: 65px; /* +15px depuis 50px */
+    font-size: 65px;
     margin: 10px;
 }
 
 main h2 {
     margin: 10px 0;
+    font-size: 50px;
+    color: white;
 }
 
 
@@ -155,7 +159,7 @@ main h2 {
 
 #bienvenue p {
     text-align: center;
-    font-size: 75px; /* +15px depuis 60px */
+    font-size: 75px;
     margin: 20px 0;
     color: white;
 }
@@ -187,7 +191,7 @@ main h2 {
 
 #liste h2 {
     color: white;
-    font-size: 60px; /* +15px depuis 45px */
+    font-size: 60px;
     margin: 40px 0;
 }
 
@@ -200,13 +204,13 @@ main h2 {
 
 #liste h3 {
     color: rgb(5, 171, 106);
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     margin: 15px 0;
 }
 
 #liste p {
     color: rgb(50, 50, 50);
-    font-size: 31px; /* +15px depuis 16px */
+    font-size: 31px;
 }
 
 #messagerie_main {
@@ -216,18 +220,18 @@ main h2 {
 
 #messagerie_main h2 {
     color: white;
-    font-size: 60px; /* +15px depuis 45px */
+    font-size: 60px;
     margin: 40px 0;
 }
 
 #messagerie_main p {
     color: white;
-    font-size: 35px; /* +15px depuis 20px */
+    font-size: 35px;
     margin: 20px 0;
 }
 
 #messagerie_main a {
-    font-size: 45px; /* +15px depuis 30px */
+    font-size: 45px;
     color: white;
     background-color:rgb(0, 120, 75);
     padding: 15px 40px;
@@ -239,7 +243,7 @@ main h2 {
 
 #messagerie_main label {
     color: white;
-    font-size: 35px; /* +15px depuis 20px */
+    font-size: 35px;
 }
 
 #salles_main {
@@ -259,7 +263,7 @@ main h2 {
 
 #salles_specifique_main h2, #salles_specifique_main p {
     color: white;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     margin: 10px 0;
 }
 
@@ -300,7 +304,7 @@ main h2 {
 #details_salles_specifique2 li {
     box-shadow: none;
     background-color: transparent;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
 }
 
 #abonnements_main {
@@ -326,17 +330,17 @@ main h2 {
 
 #abonnements_main h2 {
     margin: 10px 0;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
 }
 
 #abonnements_main p {
     color: black;
     margin: 10px 20px;
-    font-size: 31px; /* +15px depuis 16px */
+    font-size: 31px;
 }
 
 #abonnements_main h3 {
-    font-size: 35px; /* +15px depuis 20px */
+    font-size: 35px;
 }
 
 #entrainement_chez_soi_main {
@@ -356,7 +360,7 @@ main h2 {
 
 #entrainement_chez_soi_main h2 {
     margin-top: 20px;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
 }
 
 #entrainement_chez_soi_main img {
@@ -368,7 +372,7 @@ main h2 {
     color: black;
     margin: 0 0 10px 0;
     width: 300px;
-    font-size: 25px; /* +15px depuis 0px implicite */
+    font-size: 25px;
 }
 
 #conseils_et_programmes_main {
@@ -394,7 +398,7 @@ main h2 {
 
 #conseils_et_programmes_main h2 {
     margin-top: 20px;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     width: 300px;
 }
 
@@ -402,7 +406,7 @@ main h2 {
     color: black;
     margin: 0 0 10px 0;
     width: 300px;
-    font-size: 25px; /* +15px depuis 0px implicite */
+    font-size: 25px;
 }
 
 #boutique_main li {
@@ -421,7 +425,7 @@ main h2 {
     margin: 0;
     padding: 5px 20px;
     border-radius: 5px;
-    font-size: 30px; /* +15px depuis 30px */
+    font-size: 30px;
 }
 
 #produit_main {
@@ -441,7 +445,7 @@ main h2 {
     background-color: white;
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     margin: 0;
 }
 
@@ -467,7 +471,7 @@ main h2 {
 
 #inscription_main label {
     color: rgb(0, 120, 75);
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
 }
 
 #inscription_main input {
@@ -479,7 +483,7 @@ main h2 {
     background-color: rgb(5, 171, 106);
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     margin: 0;
 }
 
@@ -505,7 +509,7 @@ main h2 {
 
 #connexion_main label {
     color: rgb(0, 120, 75);
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
 }
 
 #connexion_main input {
@@ -517,7 +521,7 @@ main h2 {
     background-color: rgb(5, 171, 106);
     border-radius: 5px;
     padding: 0 10px;
-    font-size: 40px; /* +15px depuis 25px */
+    font-size: 40px;
     margin: 0;
 }
 
@@ -537,7 +541,7 @@ main h2 {
 #admin_main th, td {
     border: 1px solid black;
     padding: 10px;
-    font-size: 35px; /* +15px depuis 20px */
+    font-size: 35px;
     background-color: whitesmoke;
 }
 
@@ -556,8 +560,6 @@ main h2 {
     border-bottom: 2px solid black;
 }
 
-/* image hero spécifique : écrase la règle globale main img si nécessaire */
-/* liste de features : layout et taille des mini-images */
 #features_list {
     display: flex;
     flex-direction: row;
@@ -583,6 +585,3 @@ main h2 {
     object-fit: cover;
     border-radius: 8px;
 }
-
-/* si vous aviez une règle globale main img qui casse tout, vous pouvez la rendre moins générale :
-   remplacer 'main img { ... }' par un sélecteur plus précis comme 'main ul li img' dans le CSS principal. */

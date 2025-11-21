@@ -17,7 +17,7 @@
                 <li><a href="../page/accueil.php"><img src="../../logos/logo_complet_transparent.png" alt="Logo" id="logo"></a></li>
                 <li><a href="../page/salles.php" id="text">Salles</a></li>
                 <li><a href="../page/abonnements.php" id="text">Abonnements</a></li>
-                <li><a href="../page/entrainement_chez_soi.php" id="text">Entrainement chez soi</a></li>
+                <li><a href="../page/entrainement_chez_soi.php" id="text">Entraînement chez soi</a></li>
                 <li><a href="../page/conseils_et_programmes.php" id="text">Conseils et programmes</a></li>
                 <li><a href="#haut_de_page" id="text">Boutique</a></li>
                 <?php

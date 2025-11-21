@@ -17,7 +17,7 @@
                 <li><a href="#haut_de_page"><img src="../../logos/logo_complet_transparent.png" alt="Logo" id="logo"></a></li>
                 <li><a href="salles.php">Salles</a></li>
                 <li><a href="abonnements.php">Abonnements</a></li>
-                <li><a href="entrainement_chez_soi.php">Entrainement chez soi</a></li>
+                <li><a href="entrainement_chez_soi.php">Entraînement chez soi</a></li>
                 <li><a href="conseils_et_programmes.php">Conseils et programmes</a></li>
                 <li><a href="boutique.php">Boutique</a></li>
                 <?php

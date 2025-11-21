@@ -27,3 +27,6 @@ page des produits de la boutique
 consultation d’articles réservés aux adhérents
 informations de contact de personnes spécialisés pour les besoins des adhérents
 service de messagerie en direct
+
+
+les gérants, format mail pour inscriptions

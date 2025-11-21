@@ -84,7 +84,7 @@ if (!isset($_SESSION['id'])) {
                 <li><a href="../page/accueil.php"><img src="../../logos/logo_complet_transparent.png" alt="Logo" id="logo"></a></li>
                 <li><a href="../page/salles.php">Salles</a></li>
                 <li><a href="../page/abonnements.php">Abonnements</a></li>
-                <li><a href="../page/entrainement_chez_soi.php">Entrainement chez soi</a></li>
+                <li><a href="../page/entrainement_chez_soi.php">Entraînement chez soi</a></li>
                 <li><a href="../page/conseils_et_programmes.php">Conseils et programmes</a></li>
                 <li><a href="../page/boutique.php">Boutique</a></li>
                 <li><a href="../page/profil.php"><img src="../../logos/user.png" alt="Profil" id="user_img"></a></li>
