@@ -61,5 +61,16 @@
         </ul>
     </main>
 
+    <footer>
+        <p>&copy; 2024 Complexe-Fit. Tous droits réservés.</p>
+        <ul>
+            <li><img src="../../images/equipe/1.jpg" alt="Membre de l'équipe 1"></li>
+            <li><p>Bernard Balot</p></li>
+            <li><img src="../../images/equipe/2.jpg" alt="Membre de l'équipe 2"></li>
+            <li><p>Marie Culasse</p></li>
+            <li><img src="../../images/equipe/3.jpg" alt="Membre de l'équipe 3"></li>
+            <li><p>Jean Dupont</p></li>
+        </ul>
+    </footer>
 </body>
 </html>
