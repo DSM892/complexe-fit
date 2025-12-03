@@ -13,7 +13,7 @@ if (!isset($_SESSION['id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Messagerie</title>
     <link rel="icon" type="image/png" href="../../logos/logo_transparent.png">
-    <link rel="stylesheet" href="../../css/messagerie.css">
+    <link rel="stylesheet" href="../../css/conversation.css">
 </head>
 <body>
 
@@ -34,29 +34,28 @@ if (!isset($_SESSION['id'])) {
     <main>
         <h1>Messagerie</h1>
         <?php
-        include('bdd.php');
+        include('./bdd.php');
+
+        $other_user_id = $_GET['other_user_id'];
         $my_id = $_SESSION['id'];
-        
-        $msg_request = $mysqli->query("SELECT DISTINCT sender_id, receiver_id FROM MESSAGES WHERE sender_id = $my_id OR receiver_id = $my_id");
-        if ($msg_request->num_rows > 0) {
-            while ($CONVERSATION = $msg_request->fetch_assoc()) {
-                if ($my_id == $CONVERSATION['sender_id']) {
-                    $other_user_id = $CONVERSATION['receiver_id'];
-                } else {
-                    $other_user_id = $CONVERSATION['sender_id'];
-                }
-                $user_request = $mysqli->query("SELECT firstname, lastname FROM USER WHERE id = $other_user_id");
-                $USER = $user_request->fetch_assoc();
-                echo('<a href="conversation.php?other_user_id='.$other_user_id.'">'.$USER['firstname'].' '.$USER['lastname'].'</a><br>');
-            }
-        } else {
-            echo('<p>Aucune conversation trouvée.</p>');
+
+        $stmt = $mysqli->prepare("
+            SELECT sender_id, receiver_id, content, created_at FROM MESSAGES WHERE (sender_id = ? AND receiver_id = ?) OR (sender_id = ? AND receiver_id = ?) ORDER BY created_at ASC");
+        $stmt->bind_param("iiii", $my_id, $other_user_id, $other_user_id, $my_id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        while ($row = $result->fetch_assoc()) {
+            $is_me = ($row['sender_id'] == $my_id);
+            $cls = $is_me ? 'msg_me' : 'msg_other';
+            echo '<p>'.$row['content'].'<br>'.$row['created_at'].'</p>';
         }
         ?>
-        <form action="search_conversation.php" method="POST">
-            <input type="text" id="lastname" name="lastname" placeholder="Dupont" required>
-            <input type="text" id="firstname" name="firstname" placeholder="Jean" required>
-            <input type="submit" value="Chercher utilisateur">
+
+        <form action="add_messages.php" method="POST">
+            <input type="hidden" name="other_user_id" value="<?php echo $other_user_id; ?>">
+            <input type="text" id="content" name="content" placeholder="Envoyer un message" required>
+            <input type="submit" value="Envoyer">
         </form>
     </main>
 </body>
